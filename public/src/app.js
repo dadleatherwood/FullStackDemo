@@ -1,14 +1,13 @@
 angular.module('app', ['ui.router'])
 
-.config(function($stateProvider, $urlRouteProvider){
-  $urlRouteProvider.otherwise('/login')
+.config(function($stateProvider, $urlRouterProvider){
+  $urlRouterProvider.otherwise('/login')
 
   $stateProvider
 
   .state('login', {
     url: '/login',
-    templateUrl: './src/views/login/login.html',
-    controller: 'loginCtrl'
+    templateUrl: './src/views/login/login.html'
   })
 
   .state('inbox', {
@@ -22,4 +21,5 @@ angular.module('app', ['ui.router'])
     templateUrl: './src/views/compose/compose.html',
     controller: 'composeCtrl'
   })
+
 })
