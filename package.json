@@ -7,5 +7,22 @@
     "massive": "^3.0.0-rc1",
     "passport": "^0.3.2",
     "passport-facebook": "^2.1.1"
-  }
+  },
+  "name": "clar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dadleatherwood/FullStackDemo.git"
+  },
+  "author": "Jacob Leatherwood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dadleatherwood/FullStackDemo/issues"
+  },
+  "homepage": "https://github.com/dadleatherwood/FullStackDemo#readme",
+  "description": "Developing a full-stack web application"
 }
